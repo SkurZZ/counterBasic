@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.count h1 {
+    color: rgb(33, 33, 87);
+    font-size: 5em;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.count h2 {
+    font-size: 4em;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button{
+    margin: 3px;
+    padding: 10px;
+    background-color: transparent;
+    letter-spacing: 5px;
+    border-radius: 9px;
+}
